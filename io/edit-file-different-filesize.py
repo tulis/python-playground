@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-# Modify the file which may results into larger file or smaller file than the original file size, 
-# then we can't write to same file while we are reading it. But, says if we only change from 
+# Modify the file which may results into larger file or smaller file than the original file size,
+# then we can't write to same file while we are reading it. But, says if we only change from
 # upper case to lower case, then we can modify the file using the same file descriptor. But, this
 # following script is only catering for first case.
 
-# Sample how to run:
+# Example on how to run:
 # chmod 755 edit-file-different-filesize.py
 # edit-file-different-filesize.py v100
 
